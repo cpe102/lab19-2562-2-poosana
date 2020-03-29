@@ -79,29 +79,29 @@ void drawScene(char p_action,int p,char m_action,int m){
 	cout << "                                                       \n";	
 	}	
 	cout << "                                *               *      \n";
-	cout << "                                **  *********  **      \n";
-	cout << "                                ****         ****      \n";
+	cout << "                                *  ********  **      \n";
+	cout << "                                **         **      \n";
 	if(m_action == 'A'){
-	cout << "                 " << setw(5) << -m << "           *** **   ** ***       Attack!\n";
+	cout << "                 " << setw(5) << -m << "           * *   * *       Attack!\n";
 	}else if(m_action == 'G'){
-	cout << "                                 *** **   ** ***       Guard!\n";
+	cout << "                                 * *   * *       Guard!\n";
 	}else{
-	cout << "                                 *** **   ** ***       \n";	
+	cout << "                                 * *   * *       \n";	
 	}
-	cout << "                                  ** **   ** **        \n";
-	cout << "                   ***             *         *         \n";
+	cout << "                                  * *   * *        \n";
+	cout << "                   *             *         *         \n";
 	if(p_action == 'A'){
-	cout << "        Attack!    ***  *           *********          \n";		
+	cout << "        Attack!    *  *           *******          \n";		
 	}else if(p_action == 'H'){
-	cout << "      Heal! +" << setw(2) << p << "    ***  *           *********          \n";
+	cout << "      Heal! +" << setw(2) << p << "    *  *           *******          \n";
 	}else if(p_action == 'G'){
-	cout << "         Guard!    ***  *           *********          \n";
+	cout << "         Guard!    *  *           *******          \n";
 	}else{
-	cout << "                   ***  *           *********          \n";	
+	cout << "                   *  *           *******          \n";	
 	}
-	cout << "                    *  *       ***  *  *  *            \n";
-	cout << "                  *****           **   *   *           \n";
-	cout << "                    *                  *    ***        \n";
+	cout << "                    *  *       *  *  *  *            \n";
+	cout << "                  ***           **   *   *           \n";
+	cout << "                    *                  *    *        \n";
 	cout << "                   * *               **        *       \n";
 	cout << "                  *   *                                \n";
 	cout << "                                                       \n";
@@ -124,4 +124,3 @@ void playerLose(){
 	cout << "*                                                     *\n";
 	cout << "*******************************************************\n";
 };
-
